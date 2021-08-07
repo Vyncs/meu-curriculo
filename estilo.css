@@ -1,0 +1,77 @@
+/* ======== Body ======== */
+html, body {
+    height: 100%;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    padding: 50px;
+}
+.container>.row>.col-md-4{
+    background-color: steelblue;
+    padding: 48px;
+}
+
+
+/* FORMATAÇÃO DE LINKS */
+a {
+    color: black;
+}
+
+a:link { /* o estilo do link no estado inicial; */
+    color: black;
+    text-decoration: none;
+} 
+
+a:visited { /* o estilo do link visitado; */
+    text-decoration: none
+}
+} 
+
+a:hover { /* o estilo do link quando passa-se o mouse sobre ele; */
+    text-decoration: underline;
+	color: #f00
+}
+
+a:active { /* o estilo do link ativo (o que foi "clicado"). */
+    text-decoration: none
+}
+/* IMAGEM */
+.rounded-circle {
+    border-radius: 600px;
+    width: 300px;
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: 5px;
+    padding: 20px;
+}
+
+/* TIPOGRAFIA */
+
+.container>.row>.col-md-4>h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 900px;
+    margin-bottom: 20px;
+}
+.container>.row>.col-md-4>ul>li{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}   
+
+.container>.row>.col-md-8>h1 {
+    padding: 10px;
+    color: #3492eb;
+    text-align: center;
+}
+
+.container>.row>.col-md-8>h2 {
+    color: #3492eb;
+    text-align: center;
+}
+
+.container>.row>.col-md-8>h4 {
+    color: #3492eb;
+}
